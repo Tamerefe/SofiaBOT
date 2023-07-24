@@ -24,8 +24,8 @@ button.addEventListener("click", (event) => {
 });
 
 function notify() {
-    new Notification("Hello",{
-        body: `Learn how to use the Notification API`,
+    new Notification("Merhaba Ben Sofia",{
+        body: `Emoji Kullanma Tuşuna Basmış Bulunmaktasınız`,
         icon: './c1.jpg',
         vibrate: [200,100,200]
     });
