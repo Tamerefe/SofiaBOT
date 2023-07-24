@@ -17,10 +17,16 @@ if ("Notification" in window) {
     console.error("Notification not supported")
 }
 
+const button = document.getElementById("pop-up");
+
+button.addEventListener("click", (event) => {
+    notify()
+});
+
 function notify() {
     new Notification("Hello",{
         body: `Learn how to use the Notification API`,
-        icon: './Sofi.png',
+        icon: './c1.jpg',
         vibrate: [200,100,200]
     });
 }
